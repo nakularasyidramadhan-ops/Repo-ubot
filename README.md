@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/ricoogh/ubot
+git clone https://github.com/nakularasyidramadhan-ops/Repo-ubot.git
 ```
 ```
-cd ubot && screen -S ubot
+cd Repo-ubot && screen -S ubot
 ```
 ```
 apt install ffmpeg -y
