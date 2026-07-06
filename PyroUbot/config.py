@@ -5,20 +5,20 @@ load_dotenv(".env")
 
 MAX_BOT = int(os.getenv("MAX_BOT", "100"))
 
-DEVS = list(map(int, os.getenv("DEVS", "8709277364").split()))
+DEVS = list(map(int, os.getenv("DEVS", "8150856435").split()))
 
-API_ID = int(os.getenv("API_ID", "36303190"))
+API_ID = int(os.getenv("API_ID", "31495965"))
 
-API_HASH = os.getenv("API_HASH", "79029cd65be6ae2a8f6a5668d94485c2")
+API_HASH = os.getenv("API_HASH", "fbb76d2fc08ee0bd33f86dde82fc1f3a")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8431183153:AAFla9mSBU2HepyRfVvOlEuggNmh11Q7puI")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8610838719:AAE2p6QcJMW2WoQJo3PvMep2CHG4qCcw39o")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "7233292382"))
+OWNER_ID = int(os.getenv("OWNER_ID", "8150856435"))
 
-BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002125842026 -1002053287763").split()))
+BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1003730428070 -1002053287763").split()))
 
 RMBG_API = os.getenv("RMBG_API", "a6qxsmMJ3CsNo7HyxuKGsP1o")
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://ibnumuzakim7:ibnumuzakim132@ibnumuzakim.sbwnig8.mongodb.net/")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://nexxacrossz_db_user:lgqKA3uaCLxMuZBQ@cluster0.xo8sh2k.mongodb.net/?appName=Cluster0")
 
 LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-4912568273"))
