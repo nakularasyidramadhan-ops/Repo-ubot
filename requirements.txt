@@ -5,12 +5,11 @@ tornado==6.4.1
 py-tgcalls==2.0.6
 rich==13.7.1
 pytz==2024.1
-psutil
 motor
 dnspython
 GitPython
 bs4
-Pillow==9.5.0
+Pillow==11.3.0
 pymediainfo
 requests
 unidecode
